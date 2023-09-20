@@ -4,9 +4,12 @@ body {
     margin: 0px;
     text-align: center;
     background-image: linear-gradient(to bottom, #d8f7ff 0%, #8fe5ff 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #calculator {
+    min-width: 15rem;
     width: 30rem;
     height: 10rem;
     margin: auto;
