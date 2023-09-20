@@ -5,20 +5,25 @@ document.getElementById("num2-el").textContent = num2
 let sumEl = document.getElementById("sum-el")
 
 // Create four functions: add(), subtract(), divide(), multiply()
-fucntion add() {
-    
+function add() {
+    sumEl.textContent = "Sum: "
+    sumEl.textContent += num1 + num2
+
 }
 
-fucntion subtract() {
-    
+function subtract() {
+    sumEl.textContent = "Sum: "
+    sumEl.textContent += num1 - num2
 }
 
-fucntion divide() {
-    
+function divide() {
+    sumEl.textContent = "Sum: "
+    sumEl.textContent += num1 / num2
 }
 
-fucntion multiply() {
-    
+function multiply() {
+    sumEl.textContent = "Sum: "
+    sumEl.textContent += num1 * num2
 }
 // Call the correct function when the user clicks on one of the buttons
 // Perform the given calculation using num1 and num2
